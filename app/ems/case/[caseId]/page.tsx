@@ -133,8 +133,7 @@ export default function EMSCasePage({ params }: { params: { caseId: string } }) 
           // Show fallback message for unknown patients
           toast({ 
             title: "Unknown Patient Case", 
-            description: "No verified emergency contact available. Cannot send notifications.", 
-            type: "default" 
+            description: "No verified emergency contact available. Cannot send notifications." 
           });
         }
       }
